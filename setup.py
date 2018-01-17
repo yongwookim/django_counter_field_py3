@@ -8,15 +8,15 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-counter-field-py3',
+    name='django_counter_field_py3',
     version='0.0.1',
     packages=find_packages(exclude=['tests']),
     license='MIT License',
-    description='django-counter-field makes it extremely easy to denormalize and keep track of related model counts.',
+    description='python3 fork of django-counter-field',
     long_description=README,
-    url='http://github.com/kajic/django-counter-field',
-    author='Robert Kajic',
-    author_email='robert@kajic.com',
+    url='https://github.com/danilke/django_counter_field_py3',
+    author='Danila Kulakov',
+    author_email='kdanilke@gmail.com',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
@@ -26,11 +26,13 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     install_requires=[
-        'django-model-changes-py3>=0.14.1',
+        'django-model-changes-py3',
     ],
     test_suite='runtests.runtests',
     tests_require=[

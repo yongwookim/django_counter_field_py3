@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# django-counter-field-py3 documentation build configuration file, created by
+# django_counter_field_py3 documentation build configuration file, created by
 # sphinx-quickstart on Thu Dec 26 02:26:21 2013.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -13,7 +13,7 @@
 
 import sys, os
 
-# If extensions (or django-counter-field-py3 to document with autodoc) are in another directory,
+# If extensions (or django_counter_field_py3 to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 sys.path.insert(0, os.path.abspath('../../'))
@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'django-counter-field-py3'
+project = u'django_counter_field_py3'
 copyright = u'2013, Robert Kajic'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -170,7 +170,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'django-counter-field-py3doc'
+htmlhelp_basename = 'django_counter_field_py3doc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -189,7 +189,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'django-counter-field-py3.tex', u'django-counter-field-py3 Documentation',
+  ('index', 'django_counter_field_py3.tex', u'django_counter_field_py3 Documentation',
    u'Robert Kajic', 'manual'),
 ]
 
@@ -219,7 +219,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django-counter-field-py3', u'django-counter-field-py3 Documentation',
+    ('index', 'django_counter_field_py3', u'django_counter_field_py3 Documentation',
      [u'Robert Kajic'], 1)
 ]
 
@@ -233,8 +233,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'django-counter-field-py3', u'django-counter-field-py3 Documentation',
-   u'Robert Kajic', 'django-counter-field-py3', 'One line description of project.',
+  ('index', 'django_counter_field_py3', u'django_counter_field_py3 Documentation',
+   u'Robert Kajic', 'django_counter_field_py3', 'One line description of project.',
    'Miscellaneous'),
 ]
 
