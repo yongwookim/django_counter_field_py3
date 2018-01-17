@@ -15,8 +15,8 @@ setup(
     description='python3 fork of django-counter-field',
     long_description=README,
     url='https://github.com/danilke/django_counter_field_py3',
-    author='Danila Kulakov',
-    author_email='kdanilke@gmail.com',
+    author='Danila Kulakov, Ian Price',
+    author_email='kdanilke@gmail.com, iprice@thermaline.com',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
