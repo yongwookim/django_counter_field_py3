@@ -12,13 +12,13 @@ Quick start
 
 1. Install django-counter-field::
 
-    pip install django-counter-field
+    pip install django-counter-field-py3
 
 2. Add "django_counter_field" to your INSTALLED_APPS setting::
 
     INSTALLED_APPS = (
         ...
-        'django_counter_field',
+        'django_counter_field_py3',
     )
 
 3. Add a CounterField to your model::
