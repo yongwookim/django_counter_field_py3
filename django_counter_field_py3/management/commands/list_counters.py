@@ -7,4 +7,4 @@ class Command(NoArgsCommand):
 
     def handle(self, **kwargs):
         for i, counter_name in enumerate(counters.keys(), 1):
-            print "%s. %s" % (i, counter_name)
+            print("%s. %s" % (i, counter_name))
