@@ -17,7 +17,7 @@ setup(
     license='MIT License',
     description='python3 fork of django-counter-field',
     long_description=README,
-    url='https://github.com/danilke/django_counter_field_py3',
+    url='https://github.com/yongwookim/django_counter_field_py3.git',
     author='Danila Kulakov, Ian Price',
     author_email='kdanilke@gmail.com, iprice@thermaline.com',
     classifiers=[
