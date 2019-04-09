@@ -21,7 +21,7 @@ class Counter(object):
         self.counter_name = counter_name
         self.foreign_field = foreign_field.field
         self.child_model = self.foreign_field.model
-        self.parent_model = self.foreign_field.remote_field.to
+        self.parent_model = self.foreign_field.remote_field.model
 
         if not is_in_counter:
             is_in_counter = lambda instance: True
