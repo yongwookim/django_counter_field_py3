@@ -11,7 +11,7 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django_counter_field_py3',
+    name='django_counter_field_py3_yw',
     version='0.0.3',
     packages=find_packages(exclude=['tests']),
     license='MIT License',
